@@ -1,0 +1,84 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Nunito', sans-serif;
+}
+
+.pavadinimas {
+  font-size: 36px;
+  text-align: center;
+  margin: 40px auto 0px;
+}
+
+.antraste {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(199, 203, 208);
+  margin-bottom: 75px;
+}
+
+.korteliu-blokas {
+  margin: 0 30px;
+  width: calc(100% - 60px);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kortele {
+  width: 21%;
+  height: 470px;
+  background-color: white;
+  min-width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 9px 10px 24px 0px #989A9C;
+  box-shadow: 9px 10px 24px 0px #989A9C;
+}
+
+.nuotrauka {
+  border-radius: 50%;
+  margin: 30px 0 20px;
+  width: 128px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 10px;
+}
+
+.address {
+  font-size: 12px;
+  margin: 10px 0 20px;
+  color: rgb(152, 154, 156);
+}
+
+.maps {
+  color: rgb(152, 154, 156);
+  margin-right: 6px;
+}
+
+.about {
+  font-size: 14px;
+  color: rgb(152, 154, 156);
+  margin: 25px auto 40px;
+  width: 240px;
+}
+
+.connect {
+  font-size: 14px;
+  color: rgb(152, 154, 156);
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  width: 31px;
+  padding: 5px 0;
+  color: rgb(192, 197, 203);
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-right: 10px;
+}

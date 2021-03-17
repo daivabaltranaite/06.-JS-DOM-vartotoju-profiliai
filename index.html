@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS DOM vartotoju profiliai</title>
+    <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7979f30438.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+</head>
+
+<body id="container">
+<!--<div id="container">-->
+    <!--    <div class="pavadinimas">Find. Connect. Enjoy.</div>-->
+    <!--    <div class="antraste">new way to meet people</div>-->
+    <!--    <div class="korteliu-blokas">-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/17.jpg" alt="Sammy M Stoll">-->
+    <!--        <div class="name">Sammy M Stoll</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Wellsville, New York(NY), 14895</div>-->
+    <!--        <div class="about">Social media junkie. Avid food nerd. Professional travel fan. Tv fanatic. Bacon geek. Web-->
+    <!--          fanatic.</div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/46.jpg" alt="James C Young">-->
+    <!--        <div class="name">James C Young</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>2597 Meadowbrook Mall Road</div>-->
+    <!--        <div class="about">Certified food specialist. Pop culture geek. Typical travel evangelist. Award-winning-->
+    <!--          analyst. Zombie lover.</div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/16.jpg" alt="Deanna I Martin">-->
+    <!--        <div class="name">Deanna I Martin</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Worthington, Ohio(OH), 43085</div>-->
+    <!--        <div class="about">Zombie ninja. Wannabe internet buff. Proud introvert. Bacon expert. Social media trailblazer.-->
+    <!--        </div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/55.jpg" alt="Bruce K Collins">-->
+    <!--        <div class="name">Bruce K Collins</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Westhampton Beach, New York(NY), 11978</div>-->
+    <!--        <div class="about">Wannabe social media aficionado. Thinker. Unapologetic beer guru. Internet lover. Avid food-->
+    <!--          buff.</div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/34.jpg" alt="Claudette G Hann">-->
+    <!--        <div class="name">Claudette G Hann</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Philadelphia, Pennsylvania(PA), 19108</div>-->
+    <!--        <div class="about">Twitter practitioner. Devoted thinker. Hipster-friendly problem solver. Social media expert.-->
+    <!--        </div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/51.jpg" alt="Robert Langdon">-->
+    <!--        <div class="name">Robert Langdon</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>5 Eagle Way. AL10 8RD</div>-->
+    <!--        <div class="about">Typical gamer. Friendly coffee practitioner. Alcohol buff. Extreme pop cultureaholic.</div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/21.jpg" alt="Amber C Pantoja">-->
+    <!--        <div class="name">Amber C Pantoja</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Nashville, Tennessee(TN), 37209</div>-->
+    <!--        <div class="about">Wannabe pop culture expert. Alcohol fanatic. Unapologetic introvert. Subtly charming-->
+    <!--          communicator.-->
+    <!--        </div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="kortele">-->
+    <!--        <img class="nuotrauka" src="./flex-box1/profile-images/23.jpg" alt="Adriana E Hubert">-->
+    <!--        <div class="name">Adriana E Hubert</div>-->
+    <!--        <div class="address"><i class="fas fa-map-marker-alt maps"></i>Burlington, North Carolina(NC), 27215</div>-->
+    <!--        <div class="about">Pop culture fanatic. Hardcore analyst. Infuriatingly humble reader. Incurable troublemaker.-->
+    <!--        </div>-->
+    <!--        <div class="connect">Get Connected</div>-->
+    <!--        <div>-->
+    <!--          <i class="fab fa-facebook-f icon"></i>-->
+    <!--          <i class="fab fa-twitter icon"></i>-->
+    <!--          <i class="fab fa-google icon"></i>-->
+    <!--          <i class="fab fa-instagram icon"></i>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+<!--</div>-->
+<script src="script.js"></script>
+</body>
+
+</html>
